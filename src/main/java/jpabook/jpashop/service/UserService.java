@@ -1,5 +1,7 @@
 package jpabook.jpashop.service;
 
+import java.util.List;
+import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.domain.User;
 import jpabook.jpashop.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -21,6 +23,10 @@ public class UserService {
 
     public void login(String loginId, String pw) {
         userRepository.findUser(loginId, pw);
+    }
+
+    public List<User> findMembers() {
+        return userRepository.findAll();
     }
 
 }
