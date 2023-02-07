@@ -1,1 +1,0 @@
-{"version":3,"sources":["login/main.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"main.b13ddc1f.css","sourceRoot":"..","sourcesContent":[".inner {\r\n  margin: auto;\r\n  background-color: orange;\r\n  width: 500px;\r\n}\r\n.inner form {\r\n  margin-top: 10px;\r\n}"]}
