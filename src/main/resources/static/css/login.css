@@ -1,4 +1,4 @@
-.main { 
+.main {
   width: 500px;
   height: 600px;
   margin: 0 auto;
@@ -6,6 +6,7 @@
   position: relative;
   background-color: royalblue;
 }
+
 .main .inner {
   background-color: orange;
   width: 300px;
@@ -17,10 +18,14 @@
   margin: auto;
   position: absolute;
 }
+
 .main .inner .signin {
   display: flex;
 }
-.main .inner .login {}
+
+.main .inner .login {
+}
+
 .main .inner .login .member-input input {
 
 }
