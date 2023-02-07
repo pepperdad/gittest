@@ -1,5 +1,6 @@
 package jpabook.jpashop.repository;
 
+import java.util.List;
 import java.util.Optional;
 import javax.persistence.EntityManager;
 import jpabook.jpashop.domain.Member;
@@ -23,5 +24,10 @@ public class UserRepository {
             User.class).setParameter("loginId", loginId).getResultList().stream().findAny();
         // stream().findAny() 왜써야하나
 
+    }
+
+    public List<User> findAll() {
+        return em.createQuery("select u from User u", User.class)
+            .getResultList(); // 1번째 인자 JPQL, 2번쨰 인자 반환 타입
     }
 }
