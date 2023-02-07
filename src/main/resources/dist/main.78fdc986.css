@@ -1,0 +1,23 @@
+header {
+  height : 200px;
+  position: relative;
+}
+header .inner {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  right: 10px;
+}
+header .inner a {
+  display: inline-block;
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  border: 2px solid #595959;
+  box-sizing: border-box;
+  margin-left: 10px;
+  background-color: #e5e5e5;
+  text-align: center;
+}
+
+/*# sourceMappingURL=/main.78fdc986.css.map */

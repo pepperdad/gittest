@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel static/index.html",
-    "build": "parcel build static/index.html"
+    "dev": "parcel templates/index.html",
+    "build": "parcel build templates/index.html"
   },
   "keywords": [],
   "author": "",
