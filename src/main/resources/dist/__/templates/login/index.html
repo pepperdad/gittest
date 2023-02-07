@@ -10,11 +10,13 @@
 <body>
   <div class="main">
     <div class="inner">
-      <form class="login">
-        <input type="text" placeholder="아이디">
-        <input type="password" placeholder="비밀번호">
-        <input type="submit" value="로그인">
-      </form>
+      <div class="login">
+        <form method="post" action="" class="login-form">
+          <div class="member-input"><input id="id" name="id" type="text" placeholder="아이디"></div>
+          <div class="member-input"><input id="pass" name="password" type="password" placeholder="비밀번호"></div>
+          <button type="submit" class="login_btn">로그인</button>
+        </form>
+      </div>
     </div>
   </div>
 </body>
