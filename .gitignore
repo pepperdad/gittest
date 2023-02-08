@@ -41,3 +41,6 @@ node_modules/
 ./src/main/java/resources/.cache
 ./src/main/java/resources/dist
 ./src/main/java/resources/node_modules
+
+### React ###
+/front
