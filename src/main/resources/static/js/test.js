@@ -1,5 +1,4 @@
-import axios from 'axios'
-
+// import axios from 'axios'
 
 function fetchUser() {
   axios.get("/users")
@@ -7,3 +6,4 @@ function fetchUser() {
     console.log(res)
   })
 }
+fetchUser();
